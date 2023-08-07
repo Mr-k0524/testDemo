@@ -1,2 +1,9 @@
 server:
   port: 8881
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ksh
+    username: root
+    password: ksh123456
+mybatis-flex:
+  mapper-locations: classpath*:/mapper/*.xml
